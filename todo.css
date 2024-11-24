@@ -1,0 +1,39 @@
+body{
+  font-family: Arial;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+
+.main{
+  
+  /* margin-left: 35%; */
+  display: grid;
+  grid-template-columns: 200px 100px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  /* align-items: center; */
+}
+#todoinput,#todoadd{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+.btntodo{
+  background-color: rgb(2, 93, 2);
+  padding: 5px 5px ;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+.btndelet{
+  background-color: rgb(93, 2, 2);
+  padding: 10px 5px ;
+  border-radius: 10px;
+  color: white; 
+  border: none;
+}
+input{
+  text-align: center;
+}
